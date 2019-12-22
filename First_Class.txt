@@ -1,0 +1,198 @@
+Application -->Set of INSTRUCTIONS..
+>>>full stack Developer.
+
+1.Front-End : User Interface
+  
+  <html, css, bootstrap, Js, Angular , ApI,React Nodejs ect>
+--->UI Developer                      
+
+2.Back-End : Core Programming. 
+---Application Developer
+Business Logic
+ <Java, Dot.Net, Python GoLang>
+  
+3.Database :
+-->DBA,
+<Oracle, Mysql, Sql Server>
+
+Latest trend---> Move the data to Cloud.(3rd party storage systems)
+Mainly handled by big gaints like Amazon, Microsoft and Google...3rd party etc.
+
+Aws, GOOGLECLOUD, aZURE.
+Benifit --> You dot need to maintain any infrastructure.
+
+-------------------------------------------------------------------------------
+1.programming Language (Java)
+2.UI(html, css,Java script(jsp (java server pages), servlets) -->older version of java web application)
+
+
+
+Java  (https://www.javatpoint.com/java-tutorial)
+-----------
+Jdk --> Java Development Kit.
+Jre--->Java runtime Environment.
+
+
+JAVA iNSTALLATION
+-----------------
+1. Install Java.(java.com)
+2. Setup Environment Path.(copy bin path of ur installed JDK)
+   >>copy path--->this pc-->properties-->advanced system settings-->Environment Variables--> New -->PATH & PASTE THE PATH.
+3. JAVA is ready to run.
+3. How to check Java Version ---> cmd prompt ---> java -version.
+
+4. How a programme runs --> 1. compile and 2. Execute
+
+   a) to compile ---> javac filename.java
+   b) to execute ---> java filename
+
+
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+2nd class
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Access Specifiers:
+______________________
+
+1. Public--->
+2. Private
+3. Protected
+4. Default ----> Public
+
+Function  --> A block of Codes 
+Block --> {   }.
+
+
+
+Use-Case:
+--------------
+
+1. Create a programme to Check Weather you are eligible to Work or Not.
+    
+   a> Should be more than 22 yrs of Age.
+   b> Should be a graduate.
+   c> Should have basic knowledge of Java.
+
+Data Types :
+------------------
+
+format to store your values:
+
+1. Integer --->Numeric Values
+2. String  --->Alphanumeric values "DJDSKFS3E30E"
+3. Float ---> decimal values (23.54)
+4. char ---->'c' or 'C'
+recap
+--------
+methods
+class
+object and how to create them
+access specifiers
+we ran some sample programms..
+if-else
+scanner class to capture values directly from user..
+
+
+-------------------------------------------------------------------------
+task:
+------>html/css------------>
+
+1. Findout what is a SWITCH statements in Java.
+2. What are LOOPS in Java.
+
+-----------------------------------------------------------------------
+3rd Class
+-----------------------------------------------------------------------
+1.Loops
+---> Iterative statements, used to repeat a block of code n number of times.
+for loop has 3 parts:
+1.Initializattion
+2. Condition checking
+3.Increment /decrement
+
+=============================================
+
+Types of Loop Statements
+-----------------------------
+1.For Loop
+2.While
+3.do While
+
+1. syntax (Formulae) for "FOR" loop is 
+   for(initialization; condition; incement/Decrement)
+2. Syntax for While Loop --->Entry Loop (Condition Evaluation happens before Execution of While Block)
+   
+   while(condition)
+  {
+
+}
+
+3. Do While 
+   syntax-->
+   do   {
+     statementssss
+     }
+   while();
+
+  --->Exit Loop (Condition Evaluation happens After Execution of While Block)
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Switch Statements
+++++++++++++++++++++++++++
+problem for today : (Create a programme thats same as a ATM Machine)  
+
+1.check balance
+2.transfer
+3.withdraw
+4.change pin; 
+
+
+class-4
+=========================
+
+2 TYPES OF PROGRAMMING LANGUAGES --->1.PROCEDURE ORIENTED/STRUCTURE ORIENTED 2.OBJECT ORIENTED.
+OOPS CONCEPTS
+------------------
+1.ABSTRACTION -->
+2.ENCAPSULATION -->Everything binding within a class body (securing our code).
+3.POLYMORPHISM  -->poly+forms==>many forms ---> we can use same method name for many instances to execute the programme
+4.INHERITANCE -->aquiring partent class properties in child class.
+                 keyword ---> extends
+        2 important concepts
+  --------------------------------
+  1. though child class can access everthing from parent calss but parent class cannot.
+  2. method overriding.
+  3. method overloading.
+
+
+
+==================================================================================================
+
+
+try
+{
+
+//we write the codes, where there is a possiblity of getting an error.
+//error may be logical or environmental
+}
+catch()
+{
+//catches the error occured in try block and reports to the system.
+}
+finally
+{
+//finally block will execute whatever may be the situation.
+
+checkpoint--->is there any failure, if yes,, rollback ur transaction. if not --->they create a transaction record.
+}
+
+========================
+modes of A FILE
+
+1.READ ONLY
+2.Read/Write (overwrite)
+3.Append (write from the end of the file).
